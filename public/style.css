@@ -1,0 +1,50 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+:root {
+  --eagleGreen: #114b5f;
+  --illuminatingEmerald: #1a936f;
+  --etonBlue: #88d498;
+  --pastelGrey: #c6dabf;
+  --eggshell: #f3e9d2;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+body {
+  background-color: var(--eagleGreen);
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--illuminatingEmerald);
+}
+
+h1 {
+  font-size: 2em;
+  padding: 10px;
+  color: var(--pastelGrey);
+}
+
+p {
+  padding: 10px;
+  /* color: var(--eggshell); */
+  background-color: var(--etonBlue);
+}
+
+#mapid {
+  height: 340px;
+}

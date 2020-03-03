@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather and Air Quality</title>
+  </head>
+  <body>
+    <main>
+      <h1>The Weather and Air Quality at your location</h1>
+      <p><a href="/">Submit location</a> | <a href="/logs">Locations logged</a></p>
+
+      <p>Latitude: <span id="latitude"></span>&deg;</p>
+      <p>Longitude: <span id="longitude"></span>&deg;</p>
+      <p>The weather here is <span id="summary"></span> with a temperature of <span id="temperature"></span>&deg;C.</p>
+      <p>The air quality in <span id="aq_parameter"></span> is <span id="aq_value"></span> <span id="aq_unit"></span></p>
+      <p>Last updated on: <span id="aq_lastUpdate"></span></p>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
